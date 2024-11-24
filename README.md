@@ -40,10 +40,10 @@ The paper investigates the effectiveness of large language model (LLM) embedding
  ## Citation
 If you use our code, please cite our paper:
 
-`` Yanjun Gao, Skatje Myers, Shan Chen, Dmitriy Dligach, Timothy A Miller, Danielle Bitterman, Matthew Churpek, and Majid Afshar. 2024. When Raw Data Prevails: Are Large Language Model Embeddings Effective in Numerical Data Representation for Medical Machine Learning Applications?. In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 5414–5428, Miami, Florida, USA. Association for Computational Linguistics.`` 
+``` Yanjun Gao, Skatje Myers, Shan Chen, Dmitriy Dligach, Timothy A Miller, Danielle Bitterman, Matthew Churpek, and Majid Afshar. 2024. When Raw Data Prevails: Are Large Language Model Embeddings Effective in Numerical Data Representation for Medical Machine Learning Applications?. In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 5414–5428, Miami, Florida, USA. Association for Computational Linguistics.``` 
 
 Or use the following BibTeX:
-``
+```
 @inproceedings{gao-etal-2024-raw,
     title = "When Raw Data Prevails: Are Large Language Model Embeddings Effective in Numerical Data Representation for Medical Machine Learning Applications?",
     author = "Gao, Yanjun  and
@@ -66,5 +66,5 @@ Or use the following BibTeX:
     pages = "5414--5428",
     abstract = "The introduction of Large Language Models (LLMs) has advanced data representation and analysis, bringing significant progress in their use for medical questions and answering. Despite these advancements, integrating tabular data, especially numerical data pivotal in clinical contexts, into LLM paradigms has not been thoroughly explored. In this study, we examine the effectiveness of vector representations from last hidden states of LLMs for medical diagnostics and prognostics using electronic health record (EHR) data. We compare the performance of these embeddings with that of raw numerical EHR data when used as feature inputs to traditional machine learning (ML) algorithms that excel at tabular data learning, such as eXtreme Gradient Boosting. We focus on instruction-tuned LLMs in a zero-shot setting to represent abnormal physiological data and evaluating their utilities as feature extractors to enhance ML classifiers for predicting diagnoses, length of stay, and mortality. Furthermore, we examine prompt engineering techniques on zero-shot and few-shot LLM embeddings to measure their impact comprehensively. Although findings suggest the raw data features still prevail in medical ML tasks, zero-shot LLM embeddings demonstrate competitive results, suggesting a promising avenue for future research in medical applications.",
 }
-``
+```
 
