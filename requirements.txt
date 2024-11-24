@@ -1,0 +1,11 @@
+torch
+openai==0.28.1
+peft
+transformers
+pandas
+numpy
+matplotlib
+tqdm
+scikit-learn
+xgboost
+pyyaml
