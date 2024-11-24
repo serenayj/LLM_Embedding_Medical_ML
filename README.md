@@ -6,6 +6,9 @@ This repository contains the source code and supplementary materials for our EMN
 
 ## Overview
 
+![Introduction to LLM Embedding](when_raw_data_prevails.png)
+
+
 The paper investigates the effectiveness of large language model (LLM) embeddings in representing numerical data from electronic health records (EHRs) for medical diagnostics and prognostics. We evaluate the utility of LLM-derived embeddings as features for machine learning classifiers in tasks like diagnosis prediction, mortality prediction, and length-of-stay prediction. Our findings highlight:
 
 - **Raw data features dominate** medical ML tasks, but LLM embeddings demonstrate competitive performance in some cases.
